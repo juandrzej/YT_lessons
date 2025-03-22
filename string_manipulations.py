@@ -27,9 +27,15 @@ def show_pct() -> None:
     percent: float = .032758
     print(f"{percent:,.2%}")
     
+
+def fill_str() -> None:
+    current_str: str = "Hello"
+    print(f"{current_str:~^10}")
+
 def main() -> None:
     # masking_str()
-    show_pct()
+    # show_pct()
+    fill_str()
 
 if __name__ == '__main__':
     main()
