@@ -1,4 +1,3 @@
-from itertools import repeat
 from warnings import deprecated
 from functools import lru_cache
 
